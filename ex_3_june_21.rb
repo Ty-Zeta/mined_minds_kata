@@ -4,7 +4,7 @@ while x <100
 	if (x % 3 == 0)
 		puts "mined"
 	elsif 
-		(x == 5)
+		(x % 5 == 0)
 		puts "minds"
 	else
 		p x
