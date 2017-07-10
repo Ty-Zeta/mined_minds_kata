@@ -14,7 +14,6 @@ def sequence()
   end
 end
 
-
 # def a()
 #    a = [*1..100]
 #    a.each_with index do |value, index_pos|
