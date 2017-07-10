@@ -1,21 +1,14 @@
-# def a()
-#   a = []
-# end
-# counter = 0
-# 100.times do
-#   counter += 1
-#   a << counter
-# end
+def numbers()
+  (1..100).to_a
+  end
 
-
-def a()
-  a = [*1..100]
-  a.each do
-    if a == 3
-      a = "mined"
+def sequence()
+  numbers.collect do |x|
+    if (x % 3 == 0)
+    "mined"
+      end
     end
   end
-end
 
 
 # def a(a)
@@ -25,3 +18,12 @@ end
 #    end
 #    a
 #  end
+
+# def a()
+#   a = []
+# end
+# counter = 0
+# 100.times do
+#   counter += 1
+#   a << counter
+# end
