@@ -4,13 +4,15 @@ def numbers()
 
 def sequence()
   numbers.collect do |x|
-    if (x % 3 == 0)
-    "Mined"
-  elsif (x % 5 == 0)
-    "Minds"
-      end
+    if (x % 15 == 0)
+      "Mined Minds"
+    elsif (x % 3 == 0)
+      "Mined"
+    elsif (x % 5 == 0)
+      "Minds"
     end
   end
+end
 
 
 # def a(a)
