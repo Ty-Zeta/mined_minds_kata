@@ -1,7 +1,7 @@
-def numbers()
-  (1..100).to_a
-  end
-
+# def numbers()
+#   (1..100).to_a
+#   end
+#
 def sequence()
   numbers.collect do |x|
     if (x % 15 == 0)
@@ -15,11 +15,13 @@ def sequence()
 end
 
 
-# def a(a)
+# def a()
 #    a = [*1..100]
-#     if a[2] == 3
-#      a[2] = "mined"
-#    end
+#    a.each_with index do |value, index_pos|
+#     if value == 3
+#      a[index_pos] = "mined"
+#     end
+#   end
 #    a
 #  end
 
