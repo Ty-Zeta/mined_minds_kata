@@ -5,7 +5,9 @@ def numbers()
 def sequence()
   numbers.collect do |x|
     if (x % 3 == 0)
-    "mined"
+    "Mined"
+  elsif (x % 5 == 0)
+    "Minds"
       end
     end
   end
