@@ -22,4 +22,10 @@ class TestMinedMindsKataArrayV2Test < Minitest::Test
   def test_eightith_number
     assert_equal("minds", a[79])
   end
+  def test_fifteenth_number
+    assert_equal("mined minds", a[14])
+  end
+  def test_sixtith_number
+    assert_equal("mined minds", a[59])
+  end
 end
