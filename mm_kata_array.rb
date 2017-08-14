@@ -1,7 +1,7 @@
-# def numbers()
-#   (1..100).to_a
-#   end
-#
+def numbers()
+  (1..100).to_a
+  end
+
 def sequence()
   numbers.collect do |x|
     if (x % 15 == 0)
